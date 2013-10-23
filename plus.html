@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>독도참치</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+<link rel="stylesheet" href="main.css" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+<script src="check.js"></script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+
+
+</head>
+
+<body>
+
+<div data-role="page" class="menu-page">
+
+<div data-role="header" data-theme="b">
+        <a href="main1.html" data-icon="home" data-direction="reverse" class="ui-btn-left">Home</a>
+<h2 id="logo"> 독도참치 </h2>
+      </div><!-- header 끝 -->
+      
+      <div data-role="content"  data-theme="d">
+      <form name="Ch">
+      <div class="bu" data-role="fieldcontain">
+      <fieldset data-role="controlgroup">
+      <input type="checkbox" name="num1" id="num1" value="25000" onClick="sel_option()"> 
+      <label for="num1"> 독도보통 </label>
+      
+      <input type="checkbox" name="num2" id="num2" value="35000" onClick="sel_option()">
+      <label for="num2"> 독도스페셜 </label>
+      
+      <input type="checkbox" name="num3" id="num3" value="50000" onClick="sel_option()"> 
+      <label for="num3"> 특스페셜 </label>
+      
+      <input type="checkbox" name="num4" id="num4" value="70000" onClick="sel_option()">
+      <label for="num4"> 추천스페셜 </label>
+      
+      <input type="checkbox" name="num5" id="num5" value="100000" onClick="sel_option()">
+      <label for="num5"> 실장스페셜 </label>
+      
+      <input type="checkbox" name="num6" id="num6" value="200000" onClick="sel_option()"> 
+      <label for="num6"> 참치통머리 </label>
+      
+      </fieldset>
+      
+       <br>
+      
+      <fieldset data-role="controlgroup">
+      <input type="checkbox" name="num11" id="num11" value="100000" onClick="sel_option()">
+      <label for="num11"> 준마이다이긴죠 </label>
+      
+      <input type="checkbox" name="num12" id="num12" value="35000" onClick="sel_option()"> 
+      <label for="num12"> 준마이750 </label>
+      
+      <input type="checkbox" name="num13" id="num13" value="16000" onClick="sel_option()">
+      <label for="num13"> 니마조죠 </label>
+      
+      </fieldset>
+      
+      <br>
+      
+<input type=text name=Total_price size=20 maxlength=25 readonly 
+style="border:1px solid #94B669;text-align:right;padding-right:5px" value="0"> 
+
+
+      </div>
+      </form>
+</div>
+      
+         <div data-role="footer" data-position="fixed" data-theme="b" >
+      <div data-role="navbar" >
+        <ul>
+            <li><a href="menu.html" data-icon="grid" id="put_pin">메뉴판</a></li>
+            <li><a href="#" data-icon="search" id="put_pin">메뉴 계산</a></li>
+        </ul>
+    </div>  
+          
+    </div>
+    
+</body>
+</html>

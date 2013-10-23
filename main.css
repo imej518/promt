@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+		#logo {
+			width:176px;
+			height:132px;
+			text-indent:-9999px;
+			background-image: url(images/CI_TITLE.png);
+			background-repeat: no-repeat;
+			margin-top: 0px;
+			margin-right: auto;
+			margin-bottom: 10px;
+			margin-left: auto;
+		}   
+		
+	   .title_style {
+			color: #3F3C30;
+			padding-top: 10px;
+	   }
+	   
+	   .image_bg {
+		   width: 100%
+	   }
+	   
+	   .footer {
+			margin-top: 100px;
+			margin-right: auto;
+			margin-bottom: 100px;
+			margin-left: auto;
+	   }
